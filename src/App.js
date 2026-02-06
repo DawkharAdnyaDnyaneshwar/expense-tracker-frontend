@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import {Switch, Route} from "react-router-dom"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Landing from "./components/Landing"
+import Login from "./components/Login"
+import Signup from "./components/Signup"
+import Dashboard from "./components/Dashboard"
+import AddExpense from "./components/AddExpense"
+import Budgets from "./components/Budgets"
+import Compare from "./components/Compare"
+import ProtectedRoute from "./components/ProtectedRoute"
 
-export default App;
+const App = () => (
+  <Switch>
+    <Route exact path="/" component={Landing} />
+    <Route path="/login" component={Login} />
+    <Route path="/signup" component={Signup} />
+
+    <ProtectedRoute path="/dashboard" component={Dashboard} />
+    <ProtectedRoute path="/expense" component={AddExpense} />
+    <ProtectedRoute path="/budgets" component={Budgets} />
+    <ProtectedRoute path="/compare" component={Compare} />
+  </Switch>
+)
+
+export default App
