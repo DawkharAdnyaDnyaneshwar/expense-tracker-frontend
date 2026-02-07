@@ -2,7 +2,6 @@ import {useState} from "react"
 import {Link, Redirect} from "react-router-dom"
 import Cookies from "js-cookie"
 import {apiRequest} from "../../services/api"
-import Loader from "../Loader"
 import "./index.css"
 
 const Login = () => {
