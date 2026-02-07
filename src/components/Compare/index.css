@@ -1,0 +1,82 @@
+.page {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.compare-card {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 18px;
+}
+
+.compare-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.compare-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0;
+}
+
+.status {
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.status.on-track {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.status.over {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.progress {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  height: 8px;
+  border-radius: 6px;
+}
+
+.progress-bar.green {
+  background: #22c55e;
+}
+
+.progress-bar.red {
+  background: #ef4444;
+}
+
+.green-text {
+  color: #22c55e;
+}
+
+.red-text {
+  color: #ef4444;
+}
+
+.error-text {
+  text-align: center;
+  margin-top: 40px;
+  color: red;
+}
