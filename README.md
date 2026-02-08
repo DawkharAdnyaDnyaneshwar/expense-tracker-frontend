@@ -60,6 +60,9 @@ Frontend (Netlify):
 * Active tab highlighting
 * Loading spinners for API calls
 
+
+![alt text](<Screenshot 2026-02-08 230007.png>) ![alt text](<Screenshot 2026-02-08 230023.png>) ![alt text](<Screenshot 2026-02-08 230033.png>) ![alt text](<Screenshot 2026-02-08 230538.png>) ![alt text](<Screenshot 2026-02-08 230552.png>) ![alt text](<Screenshot 2026-02-08 230601.png>) ![alt text](<Screenshot 2026-02-08 230610.png>) ![alt text](<Screenshot 2026-02-08 230618.png>) ![alt text](<Screenshot 2026-02-08 230631.png>) ![alt text](<Screenshot 2026-02-08 230640.png>)
+
 ---
 
 ## Tech Stack
